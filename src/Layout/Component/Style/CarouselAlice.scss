@@ -1,0 +1,104 @@
+.main-carousel-alice-container
+{
+    padding: 100px 0;
+    .products-carousel-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .items {
+            margin: 0 15px;
+            .item
+            {
+                margin-bottom: 30px;
+                margin-top: 40px;
+                padding: 30px;
+                border-radius: 5px;
+                background-color: #FFFFFF;
+                position: relative;
+                .icon
+                {
+                    position: absolute;
+                    top: -20px;
+                    left: 20px;
+                    i{
+                        border-radius: 50%;
+                        padding: 10px;
+                        background-color: #cf7500;
+                        color: #FFFFFF;
+                    }
+                }
+                p{
+                    margin-bottom: 1.5rem;
+                    font-size: 16px;
+                    color: gray;
+                    line-height: 1.8;
+                    font-weight: 500;
+                    @media (max-width: 500px) {
+                        font-size: 10px;
+                    }
+                }
+                .details
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .user-img{
+                        flex: .3;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                    }
+                    .user{
+                        flex: .65;
+                        margin-top: 10px;
+                        h3{
+                            font-size: 20px;
+                            font-weight: 500;
+                            margin-bottom: 0;
+                            color: #cf7500;
+                        }
+                        span{
+                            font-size: 16px;
+                            color: #4d4d4d;
+                            @media (max-width: 500px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .item-2
+            {
+                background-color: #cf7500;
+                .icon
+                {
+                    i{
+                        border-radius: 50%;
+                        padding: 10px;
+                        background-color: #FFFFFF;
+                        color: #cf7500;
+                    }
+                }
+                p{
+                    color: #FFFFFF;
+                }
+                .details
+                {
+                    .user
+                    {
+                        h3, span{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.alice-carousel__dots{
+    display: none;
+}
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
+    display: none;
+}

@@ -1,0 +1,104 @@
+.main-quality-makes-container
+{
+    background-image: url("../img/cover.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 662px;
+    position: relative;
+    .item-details
+    {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        @media (max-width: 1024px) {
+           left: 20px;
+            padding: 10px;
+        }
+        span{
+            font-size: 13px;
+            color: rgba(0, 0, 0, .3);
+            letter-spacing: 1px;
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        h2{
+            font-size: 38px;
+            font-weight: 500;
+            line-height: 1.4;
+            width: 55%;
+            @media (max-width: 700px) {
+                width: 100%;
+            }
+            @media (max-width: 280px) {
+                font-size: 25px;
+            }
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 500;
+            width: 55%;
+            color: #9f9d9d;
+            @media (max-width: 700px) {
+                width: 100%;
+            }
+            @media (max-width: 280px) {
+                font-size: 12px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #cf7500;
+            font-size: 16px;
+            font-weight: 700;
+            span
+            {
+                margin-right: 10px;
+                display: inline-block;
+                width: 65px;
+                height: 65px;
+                border-radius: 50%;
+                background-color: #cf7500;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+                &:before,
+                &:after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    border-radius: 50%;
+                    background-color: #cf7500;
+                    animation: animate-btn 2s infinite ease-in-out;
+                    z-index: -1;
+                }
+                i{
+                    line-height: 65px;
+                    border-radius: 50%;
+                    color: #FFFFFF;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+body{
+    height: 3000px;
+}
+
+@keyframes animate-btn {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}

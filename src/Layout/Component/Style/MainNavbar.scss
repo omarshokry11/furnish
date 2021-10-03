@@ -1,0 +1,71 @@
+.main-navbar-container
+{
+    position: relative;
+    z-index: 10;
+    @media (max-width: 768px) {
+        background-color: #1c5b7b;
+        color: #FFFFFF;
+        padding: 30px 0;
+        line-height: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #000000;
+        text-decoration: none;
+        @media (max-width: 768px) {
+            top: 0;
+            color: #FFFFFF;
+        }
+        @media (max-width: 550px) {
+            left: 20px;
+        }
+    }
+    .link
+    {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        list-style: none;
+        li
+        {
+            display: inline-block;
+            margin: 0 15px;
+            a{
+                text-decoration: none;
+                color: #000000;
+            }
+            .active{
+                color: #FFF;
+            }
+        }
+    }
+    .dropdown-list
+    {
+        position: relative;
+        .dropdown-list-item
+        {
+            width: 25px;
+            position: absolute;
+            right: 65px;
+            top: -10px;
+            div{
+                background-color: #FFFFFF;
+                width: 20px;
+                height: 2px;
+                line-height: 2px;
+                margin-bottom: 4px;
+            }
+        }
+        p{
+            position: absolute;
+            right: 20px;
+            top: -3px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}

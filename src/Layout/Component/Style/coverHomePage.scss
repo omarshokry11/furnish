@@ -1,0 +1,65 @@
+.main-cover-home-page-container
+{
+    display: flex;
+    height: 100vh;
+    div{
+        flex: .5;
+    }
+    .cover-item
+    {
+        background-color: #D4EAF5;
+        .title-cover
+        {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-30%, -50%);
+            h2{
+                font-size: 45px;
+                font-weight: 200;
+                line-height: 1.2;
+                @media (max-width: 550px) {
+                    font-size: 35px;
+                }
+            }
+            h1{
+                color: #052c43;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 1.2;
+                @media (max-width: 550px) {
+                    font-size: 45px;
+                }
+            }
+            p{
+                width: 60%;
+                color: rgba(0, 0, 0, .4);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.8;
+                @media (max-width: 550px) {
+                    width: 100%;
+                }
+            }
+            button{
+                border-radius: 25px;
+                background-color: #FFFFFF;
+                color: #267aa4;
+                border: 1px solid #FFFFFF;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+    .cover-img
+    {
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

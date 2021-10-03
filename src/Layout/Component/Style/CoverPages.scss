@@ -1,0 +1,54 @@
+.main-cover-pages-container
+{
+    background-image: url("../img/coverpages.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    .title-cover-page
+    {
+        position: absolute;
+        bottom: 30px;
+        left: 45%;
+        transform: translate(-45px, -30px);
+        color: #FFFFFF;
+        z-index: 10;
+        font-size: 15px;
+        font-weight: 700;
+        @media (max-width: 700px) {
+            left: 35%;
+        }
+        i{
+            margin-left: 5px;
+        }
+        a{
+            margin-left: 70px;
+            margin-right: 10px;
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: all .5s;
+            @media (max-width: 450px) {
+                margin-left: 50px;
+            }
+            @media (max-width: 380px) {
+                margin-left: 15px;
+            }
+            &:hover{
+                color: #cf7500;
+            }
+        }
+        h1{
+            font-size: 70px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin: 0;
+            @media (max-width: 450px) {
+                font-size: 62px;
+            }
+            @media (max-width: 380px) {
+                font-size: 38px;
+            }
+        }
+    }
+}

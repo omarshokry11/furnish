@@ -1,0 +1,25 @@
+.main-counter-container
+{
+    background-color: #d4eaf5;
+    padding: 75px 0;
+    .title{
+        margin-bottom: 40px;
+    }
+    .item
+    {
+        margin-bottom: 20px;
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+        }
+        span{
+            display: block;
+            font-size: 14px;
+            font-weight: 700;
+            color: rgba(0, 0, 0, .4);
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.main-about-page-container
+{
+    .main-about-content
+    {
+        .cover-about{
+            background-image: url("../img/cover.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: -100px center;
+            height: 650px;
+            width: 100% !important;
+            @media (max-width: 450px) {
+                background-position: -170px center;
+            }
+            @media (max-width: 390px) {
+                background-position: -190px center;
+            }
+        }
+        .details-about-page
+        {
+            text-align: left !important;
+            padding: 100px 25px;
+            @media (max-width: 768px) {
+                padding: 20px 0;
+            }
+            p{
+                margin: 0 0 25px;
+                font-size: 16px;
+                line-height: 1.8;
+                font-weight: 500;
+                color: gray;
+            }
+            button{
+                border: none;
+                border-radius: 25px;
+                background-color: #cf7500;
+                color: #FFFFFF;
+                padding: 15px 25px;
+                font-size: 13px;
+                font-weight: 700;
+                box-shadow: 0 24px 36px -11px rgba(0, 0, 0, 0.09);
+                &:hover{
+                    box-shadow: 0 24px 36px -11px rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+}
