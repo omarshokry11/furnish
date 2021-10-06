@@ -15,7 +15,7 @@ export default function FtcoDetails() {
         <div className="main-ftco-details-container">
             <div className="container-fluid">
                 <div className="row">
-                    {items.map((item) =>  <div className="col-lg-3 col-md-6 col-12" key={item.id}>
+                    {items.map((item) =>  <div className="col-lg-3 col-md-6 col-12 items" key={item.id}>
                         <div className={item.className}>
                             <div className="icon"><i className={item.icon}> </i></div>
                             <div className="item-details">

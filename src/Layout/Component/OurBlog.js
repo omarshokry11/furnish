@@ -12,7 +12,7 @@ export default function OurBlog({orderItem}) {
                         <span>OUR BLOG</span>
                         <h2>Recent From Blog</h2>
                     </div>
-                    {orderItem.map((item) => <div className="col-md-6 col-12" key={item.id}>
+                    {orderItem.map((item) => <div className="col-md-6 col-12 items" key={item.id}>
                         <div className="blog-item">
                             <div className={item.className}>
                                 <Image src={item.img} />

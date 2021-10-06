@@ -9,6 +9,11 @@
         height: 380px;
         position: relative;
         cursor: pointer;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+        transition: all .5s;
+        &:hover{
+            box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        }
         .background-color{
             position: absolute;
             top: 0;
@@ -65,40 +70,47 @@
     }
     .item-details-1 {
         background-image: url("../img/item-1.webp");
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .item-details-2 {
         background-image: url("../img/item-2.webp");
         @media (max-width: 768px) {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
     }
     .item-details-3 {
         background-image: url("../img/item-3.webp");
         @media (max-width: 768px) {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
     }
     .item-details-4 {
         background-image: url("../img/item-4.webp");
         @media (max-width: 768px) {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
     }
     .item-details-5 {
         background-image: url("../img/item-5.webp");
         @media (max-width: 700px) {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
     }
     .item-details-6 {
         background-image: url("../img/item-6.webp");
+        margin-bottom: 10px;
     }
     .item-details-7 {
         background-image: url("../img/item-7.webp");
+        @media (max-width: 700px) {
+            margin-bottom: 10px;
+        }
     }
     .item-details-8 {
         background-image: url("../img/item-8.webp");
+        @media (max-width: 700px) {
+            margin-bottom: 10px;
+        }
     }
     .item-details-9 {
         background-image: url("../img/item-9.webp");

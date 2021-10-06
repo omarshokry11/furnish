@@ -12,14 +12,13 @@ import "./Style/HomePage.scss";
 export default function HomePage() {
 
     const itemImages= [
-        {id: 1, className: "col-lg-3 col-md-6 col-12", class: "item-details-1 item-details"},
-        {id: 2, className: "col-lg-3 col-md-6 col-12", class: "item-details-2 item-details"},
-        {id: 3, className: "col-lg-6 col-md-6 col-12", class: "item-details-3 item-details"},
-        {id: 4, className: "col-lg-5 col-md-6 col-12", class: "item-details-4 item-details"},
-        {id: 5, className: "col-lg-3 col-md-6 col-12", class: "item-details-5 item-details"},
-        {id: 6, className: "col-lg-4 col-md-6 col-12", class: "item-details-6 item-details"}
+        {id: 1, className: "col-lg-3 col-md-6 col-12 items", class: "item-details-1 item-details"},
+        {id: 2, className: "col-lg-3 col-md-6 col-12 items", class: "item-details-2 item-details"},
+        {id: 3, className: "col-lg-6 col-md-6 col-12 items", class: "item-details-3 item-details"},
+        {id: 4, className: "col-lg-5 col-md-6 col-12 items", class: "item-details-4 item-details"},
+        {id: 5, className: "col-lg-3 col-md-6 col-12 items", class: "item-details-5 item-details"},
+        {id: 6, className: "col-lg-4 col-md-6 col-12 items", class: "item-details-6 item-details"}
     ]
-
     const orderItem = [
         {id: 1,  className: "blog-img", classOrder: "blog-details", img: "/img/blog-1.webp", h3: "Shop the Look Cottage Country Living Room", p: "A small river named Duden flows by their place.",
             spanItem: [

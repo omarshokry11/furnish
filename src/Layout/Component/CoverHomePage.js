@@ -1,5 +1,4 @@
 import React from "react";
-import {Image} from "react-bootstrap";
 
 import "./Style/coverHomePage.scss";
 
@@ -14,9 +13,7 @@ export default function coverHomePage() {
                     <button>DISCOVER</button>
                 </div>
             </div>
-            <div className="cover-img">
-                <Image src="/img/xbg_2.jpg.pagespeed.ic.iGm7dlnEyZ.webp" />
-            </div>
+            <div className="cover-img"> </div>
         </div>
     )
 }

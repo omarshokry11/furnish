@@ -57,9 +57,10 @@
     }
     .cover-img
     {
-        img{
-            height: 100%;
-            width: 100%;
-        }
+        background-image: url("../img/coverhomepage.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
     }
 }

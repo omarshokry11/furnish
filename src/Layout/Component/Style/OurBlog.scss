@@ -9,6 +9,11 @@
         height: 300px;
         border-radius: 5px;
         margin-bottom: 20px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+        transition: all .5s;
+        &:hover{
+            box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        }
         @media (max-width: 700px) {
             display: block;
             height: 500px;
